@@ -15,7 +15,7 @@ const FavoritesScreen: React.FC<Props> = ({ navigation }) => {
   if (favorites.length === 0) {
     return (
       <View style={styles.container}>
-        <Text>You have no favorite characters yet.</Text>
+        <Text>No tienes favoritos</Text>
       </View>
     );
   }
